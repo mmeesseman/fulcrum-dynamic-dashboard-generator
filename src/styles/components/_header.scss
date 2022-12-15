@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkgray;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header button {
+  width: 75px;
+  height: 35px;
+}
+
+.header select {
+  height: 35px;
+  padding: 5px;
+}
