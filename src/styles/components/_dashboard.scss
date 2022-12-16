@@ -1,0 +1,14 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard h2 {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.dashboard .charts {
+  display: grid;
+  grid-template-columns: 50% 50%
+}

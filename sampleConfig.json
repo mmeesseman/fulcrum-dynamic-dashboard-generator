@@ -1,0 +1,22 @@
+{
+  "type": "Label",
+  "key": "2240",
+  "label": "[{\"type\": \"pie\",\"title\": \"Status\",\"operation\": \"count\",\"data_field\": \"_status\"}, {\"type\": \"card\",\"title\": \"Count of Records\",\"operation\": \"count\",\"data_field\": \"_record_id\"}]",
+  "description": null,
+  "required": false,
+  "disabled": false,
+  "hidden": true,
+  "data_name": "charts",
+  "default_value": null,
+  "visible_conditions_type": "all",
+  "visible_conditions_behavior": "clear",
+  "visible_conditions": [
+      {
+      "field_key": "@status",
+      "operator": "is_empty",
+      "value": ""
+      }
+  ],
+  "required_conditions_type": null,
+  "required_conditions": null
+}

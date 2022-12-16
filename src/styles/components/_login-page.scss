@@ -1,0 +1,26 @@
+.login-page {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+.login-page h1 {
+  text-align: center;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page label {
+  margin-top: 1em;
+  font-weight: 700;
+}
+
+.login-page button {
+  margin-top: 1em;
+ }
